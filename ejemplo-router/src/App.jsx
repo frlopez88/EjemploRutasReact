@@ -1,7 +1,8 @@
-
-import { Contacto } from './componentes/Contacto'
 import { Default } from './componentes/Default'
-import { QuienesSomos } from './componentes/QuienesSomos'
+import { Usuarios } from './componentes/Usuarios'
+import { Roles } from './componentes/Roles'
+import { Ciudad } from './componentes/Ciudad'
+import { Pais } from './componentes/Pais'
 import { Inicio } from './componentes/Inicio'
 import { Routes, Route } from 'react-router-dom'
 import { Menu } from './componentes/Menu'
@@ -14,8 +15,10 @@ function App() {
         <Menu />
         <Routes>
           <Route path='/' element={ <Inicio />}  ></Route>
-          <Route path='/quienesSomos' element={ <QuienesSomos />}  ></Route>
-          <Route path='/contacto' element={ <Contacto />}  ></Route>
+          <Route path='/usuarios' element={ <Usuarios />}  ></Route>
+          <Route path='/roles' element={ <Roles />}  ></Route>
+          <Route path='/ciudad' element={ <Ciudad />}  ></Route>
+          <Route path='/pais' element={ <Pais />}  ></Route>
           <Route path='*' element={ <Default />}  ></Route>
         </Routes>
       

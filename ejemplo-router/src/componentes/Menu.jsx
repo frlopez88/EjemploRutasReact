@@ -11,8 +11,10 @@ export const Menu = () => {
                     <Nav className="mr-auto">
                         
 
-                        <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
-                        <Nav.Link as={Link} to="/quienesSomos">Quienes Somos</Nav.Link>
+                        <Nav.Link as={Link} to="/usuarios">Usuarios</Nav.Link>
+                        <Nav.Link as={Link} to="/roles">Roles</Nav.Link>
+                        <Nav.Link as={Link} to="/ciudad">Ciudades</Nav.Link>
+                        <Nav.Link as={Link} to="/pais">Pais</Nav.Link>
                         
                     </Nav>
                 </Navbar.Collapse>
